@@ -21,7 +21,7 @@ room_assignments
 end
 
 
-def printer(batch_badge_creator(names), assign_rooms(names))
+def printer(batch_badge_creator, assign_rooms)
   badge_messages.each do |message|
     puts "#{message}"
   end
