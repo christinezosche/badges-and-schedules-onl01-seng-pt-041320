@@ -21,11 +21,11 @@ room_assignments
 end
 
 
-def printer(badge_messages, room_assignments)
-  badge_messages.each do |message|
-    puts "#{message}"
+def printer(names)
+  batch_badge_creator(names).each do |message|
+    puts message
   end
-  room_assignments.each do |assignment|
-    puts "#{assignment}"
+  assign_rooms(names).each do |assignment|
+    puts assignment
   end
 end
