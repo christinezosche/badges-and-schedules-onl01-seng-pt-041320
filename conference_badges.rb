@@ -16,6 +16,7 @@ def assign_rooms(names, rooms)
   rooms.each do |room|
     room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
   end
+  end
 room_assignments
 end
 
