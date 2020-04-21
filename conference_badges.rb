@@ -20,6 +20,9 @@ def assign_rooms(names)
 room_assignments
 end
 
+badge_messages
+room_assignments
+
 def printer(badge_messages, room_assignments)
   badge_messages.each do |message|
     puts "#{message}"
