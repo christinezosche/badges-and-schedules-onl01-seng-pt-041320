@@ -28,3 +28,5 @@ def printer(badge_messages, room_assignments)
     puts "#{assignment}"
   end
 end
+
+printer
